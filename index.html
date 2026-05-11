@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevate Media | Social Strategy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+   </script>
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<style>
+    /* Poori website par smooth scrolling enable karne ke liye */
+    html {
+        scroll-behavior: smooth;
+    }
+
+    /* Jab link par click karke section par pahunche, 
+       toh header ke niche content na dabe uske liye padding */
+    :root {
+        scroll-padding-top: 100px;
+    }
+</style>
+</head>
+<body class="bg-[#F9F7F2] text-[#1A1A1A] font-sans selection:bg-black selection:text-white">
+<div id="loader" class="fixed inset-0 z-[10000] bg-black flex items-center justify-center transition-opacity duration-1000">
+    <div class="text-center">
+        <h1 class="text-white font-serif italic text-2xl md:text-4xl tracking-[0.5em] animate-pulse">ELEVATE MEDIA</h1>
+        <div class="w-12 h-[1px] bg-white/20 mx-auto mt-4 overflow-hidden">
+            <div id="loader-bar" class="w-full h-full bg-white -translate-x-full"></div>
+        </div>
+    </div>
+</div>
+   <nav id="main-nav" class="fixed top-0 left-0 w-full z-[999] transition-all duration-500 px-8 py-6">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <a href="index.html" class="text-xl font-serif italic tracking-tighter">Elevate Media.</a>
+        
+        <div class="hidden md:flex gap-12 text-[10px] uppercase tracking-[0.3em] text-gray-500 font-sans">
+            <a href="index.html" class="hover:text-black transition">Home</a>
+            <a href="#specializations" class="hover:text-black transition">Portfolio</a>
+            <a href="contact.html" class="hover:text-black transition">Inquire</a>
+            <a href="#packages" class="hover:text-black transition">Packages</a>
+        </div>
+    </div>
+</nav>
+
+    <section class="h-[80vh] flex flex-col justify-center items-center text-center px-4">
+        <span class="uppercase tracking-[0.3em] text-xs mb-6 opacity-60">Digital Media Handelling Agency</span>
+        <h2 data-aos="fade-up" data-aos-delay="200" class="text-5xl md:text-7xl font-serif max-w-4xl leading-tight mb-8">
+    We build brands that <span class="italic text-gray-500">command</span> attention.
+        </h2>
+        <p class="max-w-md text-gray-500 mb-10 leading-relaxed">
+            High-end social media management for visionaries who refuse to blend in.
+        </p>
+       <a href="contact.html" class="inline-block bg-black text-white px-10 py-4 text-[10px] uppercase tracking-widest hover:bg-gray-800 transition">
+    Book a Consultation
+</a>
+    </section>
+   
+<section class="max-w-7xl mx-auto px-6 py-12">
+    <div class="relative group overflow-hidden bg-gray-100 aspect-[16/9] md:aspect-[21/9]">
+        <img src="hero-image.jpg" 
+             alt="Elevate Media Aesthetic" 
+             class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-1000 ease-in-out scale-105 group-hover:scale-100">
+        
+        <div class="absolute bottom-8 left-8 text-white mix-blend-difference">
+            <p class="text-[10px] uppercase tracking-[0.5em] opacity-80">Est. 2026 / Digital Authority</p>
+        </div>
+    </div>
+</section>
+<!-- advantages section -->
+ <section class="max-w-6xl mx-auto px-6 py-32 border-t border-gray-100">
+    <div class="text-center mb-20" data-aos="fade-up">
+        <span class="text-[10px] uppercase tracking-[0.5em] text-gray-400 font-sans">The Advantage</span>
+        <h2 class="text-4xl font-serif mt-4 italic">Why Partner With Us</h2>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <div class="p-8 border border-gray-100 bg-white hover:border-black transition duration-500 group" data-aos="fade-up" data-aos-delay="100">
+            <div class="w-10 h-10 mb-6 flex items-center justify-center bg-gray-50 group-hover:bg-black group-hover:text-white transition duration-500 rounded-full">
+                <span class="text-xs font-serif">01</span>
+            </div>
+            <h3 class="text-lg font-serif mb-4 italic">Fast Delivery</h3>
+            <p class="text-[11px] text-gray-500 leading-relaxed uppercase tracking-wider font-light">
+                Time is revenue. We deliver high-end edits within 24-48 hours without compromising on a single frame.
+            </p>
+        </div>
+
+        <div class="p-8 border border-gray-100 bg-white hover:border-black transition duration-500 group" data-aos="fade-up" data-aos-delay="200">
+            <div class="w-10 h-10 mb-6 flex items-center justify-center bg-gray-50 group-hover:bg-black group-hover:text-white transition duration-500 rounded-full">
+                <span class="text-xs font-serif">02</span>
+            </div>
+            <h3 class="text-lg font-serif mb-4 italic">High Retention</h3>
+            <p class="text-[11px] text-gray-500 leading-relaxed uppercase tracking-wider font-light">
+                We use psychological triggers and fast-paced storytelling to keep your audience hooked until the last second.
+            </p>
+        </div>
+
+        <div class="p-8 border border-gray-100 bg-white hover:border-black transition duration-500 group" data-aos="fade-up" data-aos-delay="300">
+            <div class="w-10 h-10 mb-6 flex items-center justify-center bg-gray-50 group-hover:bg-black group-hover:text-white transition duration-500 rounded-full">
+                <span class="text-xs font-serif">03</span>
+            </div>
+            <h3 class="text-lg font-serif mb-4 italic">Premium Quality</h3>
+            <p class="text-[11px] text-gray-500 leading-relaxed uppercase tracking-wider font-light">
+                Every project undergoes a rigorous quality check to ensure a cinema-grade output for your brand.
+            </p>
+        </div>
+
+        <div class="p-8 border border-gray-100 bg-white hover:border-black transition duration-500 group" data-aos="fade-up" data-aos-delay="400">
+            <div class="w-10 h-10 mb-6 flex items-center justify-center bg-gray-50 group-hover:bg-black group-hover:text-white transition duration-500 rounded-full">
+                <span class="text-xs font-serif">04</span>
+            </div>
+            <h3 class="text-lg font-serif mb-4 italic">Unlimited Revisions</h3>
+            <p class="text-[11px] text-gray-500 leading-relaxed uppercase tracking-wider font-light">
+                Your satisfaction is our priority. We refine the work until it perfectly aligns with your vision.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- process and faqs section -->
+<section class="max-w-7xl mx-auto px-6 py-32 border-t border-gray-100">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+        
+        <div data-aos="fade-right">
+            <div class="mb-12">
+                <span class="text-[10px] uppercase tracking-[0.4em] text-gray-400 font-sans">Our Roadmap</span>
+                <h2 class="text-4xl font-serif italic mt-4 text-[#1A1A1A]">The Process</h2>
+            </div>
+            
+            <div class="space-y-6">
+                <div class="p-8 bg-white border border-gray-100 shadow-sm hover:border-black transition duration-500">
+                    <div class="flex items-start gap-6">
+                        <span class="text-2xl font-serif italic text-gray-200">01</span>
+                        <div>
+                            <h4 class="text-sm uppercase tracking-widest mb-3 font-semibold">Discovery & Audit</h4>
+                            <p class="text-xs text-gray-500 leading-relaxed font-light">We deep-dive into your niche and brand goals to identify the exact creative direction needed.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-8 bg-white border border-gray-100 shadow-sm hover:border-black transition duration-500">
+                    <div class="flex items-start gap-6">
+                        <span class="text-2xl font-serif italic text-gray-300">02</span>
+                        <div>
+                            <h4 class="text-sm uppercase tracking-widest mb-3 font-semibold">Cinematic Execution</h4>
+                            <p class="text-xs text-gray-500 leading-relaxed font-light">Our editors apply high-retention hooks and storytelling techniques to make your content viral-ready.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-8 bg-white border border-gray-100 shadow-sm hover:border-black transition duration-500">
+                    <div class="flex items-start gap-6">
+                        <span class="text-2xl font-serif italic text-gray-400">03</span>
+                        <div>
+                            <h4 class="text-sm uppercase tracking-widest mb-3 font-semibold">Final Delivery</h4>
+                            <p class="text-xs text-gray-500 leading-relaxed font-light">Following a rigorous quality check, we deliver the final files ready to dominate your social feed.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div data-aos="fade-left">
+            <div class="mb-12">
+                <span class="text-[10px] uppercase tracking-[0.4em] text-gray-400 font-sans">Common Queries</span>
+                <h2 class="text-4xl font-serif italic mt-4 text-[#1A1A1A]">Frequently Asked</h2>
+            </div>
+
+            <div class="grid grid-cols-1 gap-4">
+                <div class="p-6 bg-[#F3F3F3] border border-transparent hover:bg-white hover:border-gray-200 transition duration-300">
+                    <h4 class="text-sm font-serif italic mb-3">Which niches do you specialize in?</h4>
+                    <p class="text-xs text-gray-500 font-light leading-relaxed">We specialize in Finance, Tech, Luxury Lifestyle, and Documentary-style content for high-end creators.</p>
+                </div>
+
+                <div class="p-6 bg-[#F3F3F3] border border-transparent hover:bg-white hover:border-gray-200 transition duration-300">
+                    <h4 class="text-sm font-serif italic mb-3">How do revisions work?</h4>
+                    <p class="text-xs text-gray-500 font-light leading-relaxed">We offer a transparent revision process. Depending on your plan, we refine the work until it meets the standard.</p>
+                </div>
+
+                <div class="p-6 bg-[#F3F3F3] border border-transparent hover:bg-white hover:border-gray-200 transition duration-300">
+                    <h4 class="text-sm font-serif italic mb-3">Do we get the project files?</h4>
+                    <p class="text-xs text-gray-500 font-light leading-relaxed">Project source files are available upon request in our Signature/Premium plans to maintain full brand control.</p>
+                </div>
+
+                <div class="p-6 bg-[#F3F3F3] border border-transparent hover:bg-white hover:border-gray-200 transition duration-300">
+                    <h4 class="text-sm font-serif italic mb-3">What is the payment structure?</h4>
+                    <p class="text-xs text-gray-500 font-light leading-relaxed">We follow a monthly retainer model, but custom project-based pricing is available for documentaries and long-form.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- specializations section -->
+<section id="specializations" class="max-w-7xl mx-auto px-6 py-24 border-t border-gray-100">
+    <div class="text-center mb-16" data-aos="fade-up">
+        <h2 class="text-3xl font-serif italic text-gray-800">Explore Our Specializations</h2>
+        <p class="text-[10px] uppercase tracking-[0.3em] text-gray-400 mt-2">Click to view our curated samples</p>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8">
+        <a href="documentary.html" class="group border border-gray-200 p-8 text-center hover:bg-black transition duration-500" data-aos="fade-up">
+            <h3 class="font-serif text-xl group-hover:text-white transition italic">Documentary Style</h3>
+            <p class="text-[9px] uppercase tracking-widest text-gray-400 mt-2 group-hover:text-gray-500">Visual Narratives</p>
+        </a>
+
+        <a href="podcast.html" class="group border border-gray-200 p-8 text-center hover:bg-black transition duration-500" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="font-serif text-xl group-hover:text-white transition italic">Podcast Edit</h3>
+            <p class="text-[9px] uppercase tracking-widest text-gray-400 mt-2 group-hover:text-gray-500">Retention Focused</p>
+        </a>
+
+        <a href="thumnails.html" class="group border border-gray-200 p-8 text-center hover:bg-black transition duration-500" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="font-serif text-xl group-hover:text-white transition italic">Thumbnail Design</h3>
+            <p class="text-[9px] uppercase tracking-widest text-gray-400 mt-2 group-hover:text-gray-500">High CTR Graphics</p>
+        </a>
+
+        <a href="gaming.html" class="group border border-gray-200 p-8 text-center hover:bg-black transition duration-500" data-aos="fade-up" data-aos-delay="300">
+            <h3 class="font-serif text-xl group-hover:text-white transition italic">Gaming Videos</h3>
+            <p class="text-[9px] uppercase tracking-widest text-gray-400 mt-2 group-hover:text-gray-500">High Energy Edits</p>
+        </a>
+
+        <a href="after-effects.html" class="group border border-gray-200 p-8 text-center hover:bg-black transition duration-500" data-aos="fade-up" data-aos-delay="400">
+            <h3 class="font-serif text-xl group-hover:text-white transition italic">After Effects</h3>
+            <p class="text-[9px] uppercase tracking-widest text-gray-400 mt-2 group-hover:text-gray-500">Advanced VFX</p>
+        </a>
+
+        <a href="others.html" class="group border border-gray-200 p-8 text-center hover:bg-black transition duration-500" data-aos="fade-up" data-aos-delay="500">
+            <h3 class="font-serif text-xl group-hover:text-white transition italic">Others</h3>
+            <p class="text-[9px] uppercase tracking-widest text-gray-400 mt-2 group-hover:text-gray-500">Custom Request</p>
+        </a>
+    </div>
+</section>
+
+<!-- Meet the Editors Section -->
+
+<section class="max-w-7xl mx-auto px-6 py-32 bg-black text-white overflow-hidden">
+    <div class="mb-16 text-center md:text-left" data-aos="fade-up">
+        <span class="text-[10px] uppercase tracking-[0.4em] text-gray-500 mb-4 block font-sans">The Creative Minds</span>
+        <h2 class="text-4xl font-serif italic">Meet the Collective</h2>
+    </div>
+
+    <div class="swiper mySwiper pb-12">
+        <div class="swiper-wrapper">
+            
+            <div class="swiper-slide h-auto">
+                <div class="p-8 border border-white/10 flex flex-col items-center text-center h-full hover:bg-white/5 transition">
+                    <div class="w-24 h-24 rounded-full bg-gray-800 overflow-hidden mb-6 border border-white/20 p-1">
+                        <img src="editor1.jpg" class="w-full h-full object-cover grayscale">
+                    </div>
+                    <h4 class="text-xl font-serif mb-2 italic">Founding Editor</h4>
+                    <p class="text-gray-500 text-xs leading-relaxed font-light">Lead Strategist & Narrative Specialist.</p>
+                </div>
+            </div>
+
+            <div class="swiper-slide h-auto">
+                <div class="p-8 border border-white/10 flex flex-col items-center text-center h-full hover:bg-white/5 transition">
+                    <div class="w-24 h-24 rounded-full bg-gray-800 overflow-hidden mb-6 border border-white/20 p-1">
+                        <img src="editor2.jpg" class="w-full h-full object-cover grayscale">
+                    </div>
+                    <h4 class="text-xl font-serif mb-2 italic">VFX Artist</h4>
+                    <p class="text-gray-500 text-xs leading-relaxed font-light">After Effects & Motion Graphics Authority.</p>
+                </div>
+            </div>
+
+            <div class="swiper-slide h-auto">
+                <div class="p-8 border border-white/10 flex flex-col items-center text-center h-full hover:bg-white/5 transition">
+                    <div class="w-24 h-24 rounded-full bg-gray-800 overflow-hidden mb-6 border border-white/20 p-1">
+                        <img src="editor3.jpg" class="w-full h-full object-cover grayscale">
+                    </div>
+                    <h4 class="text-xl font-serif mb-2 italic">Gaming Specialist</h4>
+                    <p class="text-gray-500 text-xs leading-relaxed font-light">High-Energy & Retention Focused Edits.</p>
+                </div>
+            </div>
+
+            <div class="swiper-slide h-auto">
+                <div class="p-8 border border-white/10 flex flex-col items-center text-center h-full hover:bg-white/5 transition">
+                    <div class="w-24 h-24 rounded-full bg-gray-800 overflow-hidden mb-6 border border-white/20 p-1">
+                        <img src="editor4.jpg" class="w-full h-full object-cover grayscale">
+                    </div>
+                    <h4 class="text-xl font-serif mb-2 italic">Colorist</h4>
+                    <p class="text-gray-500 text-xs leading-relaxed font-light">Defining the visual mood of every frame.</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="swiper-pagination !bottom-0"></div>
+    </div>
+</section>
+</section>
+<!-- packages section -->
+
+ <section id="packages" class="max-w-6xl mx-auto px-6 py-32 border-t border-gray-100">
+    <div class="text-center mb-20" data-aos="fade-up">
+        <span class="text-[10px] uppercase tracking-[0.4em] text-gray-400 font-sans">Investment Plans</span>
+        <h2 class="text-4xl font-serif mt-4 italic text-[#1A1A1A]">Elevate Your Content</h2>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <div class="border border-gray-200 p-10 hover:border-black transition duration-500 bg-white group" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="text-xl font-serif mb-2">Basic</h3>
+            <p class="text-gray-400 text-[10px] uppercase tracking-widest mb-8 font-sans">Starter Influence</p>
+            <ul class="text-sm text-gray-600 space-y-4 mb-12 font-light leading-loose">
+                <li>• 08 Short Form Edits</li>
+                <li>• Basic Cut + Subtitles</li>
+                <li>• 02 Professional Revisions</li>
+                <li>• 3-4 Custom Thumbnails</li>
+            </ul>
+            <div class="mb-8">
+                <p class="text-3xl font-serif italic text-black">$199<span class="text-sm text-gray-400 not-italic">/month</span></p>
+            </div>
+           <a href="contact.html" class="block w-full py-4 border border-black text-center text-[10px] uppercase tracking-[0.2em] group-hover:bg-black group-hover:text-white transition duration-300">
+    Choose Basic
+</a>
+        </div>
+
+        <div class="border border-black p-10 bg-black text-white transform md:-translate-y-4 shadow-2xl relative" data-aos="fade-up" data-aos-delay="200">
+            <div class="bg-white text-black text-[8px] uppercase tracking-[0.3em] py-1 px-3 inline-block mb-6 absolute -top-3 left-1/2 -translate-x-1/2">Most Popular</div>
+            <h3 class="text-xl font-serif mb-2 text-white">Standard</h3>
+            <p class="text-gray-400 text-[10px] uppercase tracking-widest mb-8 font-sans">Growth Accelerator</p>
+            <ul class="text-sm text-gray-300 space-y-4 mb-12 font-light leading-loose">
+                <li>• 12 Short Form Edits</li>
+                <li>• 03 High-End Long Form Videos</li>
+                <li>• 4-5 Custom Thumbnails</li>
+                <li>• 03 Professional Revisions</li>
+            </ul>
+            <div class="mb-8">
+                <p class="text-3xl font-serif italic">$299<span class="text-sm text-gray-500 not-italic">/month</span></p>
+            </div>
+           <a href="contact.html" class="block w-full py-4 bg-white text-black text-[10px] uppercase tracking-[0.2em] hover:bg-gray-200 transition duration-300">
+    Choose Standard
+</a>
+        </div>
+
+        <div class="border border-gray-200 p-10 hover:border-black transition duration-500 bg-white group" data-aos="fade-up" data-aos-delay="300">
+            <h3 class="text-xl font-serif mb-2 text-[#1A1A1A]">Premium</h3>
+            <p class="text-gray-400 text-[10px] uppercase tracking-widest mb-8 font-sans">Full Content Authority</p>
+            <ul class="text-sm text-gray-600 space-y-4 mb-12 font-light leading-loose">
+                <li>• 15 Short Form Edits</li>
+                <li>• 05 Elite Long Form Videos</li>
+                <li>• 08 Premium Thumbnails</li>
+                <li>• Unlimited Revisions</li>
+                <li class="font-bold text-black italic text-[11px] uppercase tracking-tighter">• Priority & Fast Delivery</li>
+            </ul>
+            <div class="mb-8">
+                <p class="text-3xl font-serif italic text-black">$399<span class="text-sm text-gray-400 not-italic">/month</span></p>
+            </div>
+            <a href="contact.html" class="block w-full py-4 border border-black text-center text-[10px] uppercase tracking-[0.2em] group-hover:bg-black group-hover:text-white transition duration-300">
+    Choose Premium
+</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- About section -->
+<section class="max-w-6xl mx-auto px-6 py-32 flex flex-col md:flex-row items-center gap-16">
+    <div class="md:w-1/2" data-aos="fade-right">
+        <h2 class="text-4xl font-serif mb-8 italic">Two Minds. One Standard.</h2>
+        <p class="text-gray-500 leading-relaxed mb-6">
+            Elevate Media Web was founded on a simple realization: the digital landscape is loud, but rarely clear. 
+        </p>
+        <p class="text-gray-500 leading-relaxed">
+            As a dedicated duo, we combine technical precision with creative intuition. We don't just manage accounts; we build digital legacies for brands that demand excellence.
+        </p>
+    </div>
+    
+    <div class="md:w-1/2 grid grid-cols-2 gap-4" data-aos="fade-left">
+        <div class="h-64 bg-gray-200">
+            <img src="img 2.avif" class="w-full h-full object-cover grayscale">
+        </div>
+        <div class="h-64 bg-black flex items-center justify-center p-6 text-center">
+            <p class="text-white text-[10px] uppercase tracking-widest leading-loose">
+                "Strategy without creativity is invisible. Creativity without strategy is noise."
+            </p>
+        </div>
+    </div>
+</section>
+
+<!--footer-->
+<footer class="bg-black text-white pt-24 pb-12 px-6">
+    <div class="max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-16 mb-24">
+            
+            <div class="md:col-span-2 space-y-8">
+                <h2 class="text-3xl font-serif italic tracking-tighter">Elevate Media Web.</h2>
+                <p class="text-gray-500 text-xs uppercase tracking-[0.3em] leading-loose max-w-sm">
+                    We don't just edit videos; we build digital legacies for visionaries who refuse to blend in. Based in India, serving the world.
+                </p>
+                <div class="flex gap-6 pt-4">
+                    <a href="#" class="w-8 h-8 rounded-full border border-white/10 flex items-center justify-center hover:bg-white hover:text-black transition duration-500">
+                        <span class="text-[10px]">IG</span>
+                    </a>
+                    <a href="#" class="w-8 h-8 rounded-full border border-white/10 flex items-center justify-center hover:bg-white hover:text-black transition duration-500">
+                        <span class="text-[10px]">LN</span>
+                    </a>
+                    <a href="#" class="w-8 h-8 rounded-full border border-white/10 flex items-center justify-center hover:bg-white hover:text-black transition duration-500">
+                        <span class="text-[10px]">YT</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="space-y-6">
+                <h4 class="text-[10px] uppercase tracking-[0.4em] text-gray-400">Navigation</h4>
+                <ul class="space-y-4 text-xs uppercase tracking-widest text-gray-500">
+                    <li><a href="index.html" class="hover:text-white transition">Home</a></li>
+                    <li><a href="#portfolio" class="hover:text-white transition">Portfolio</a></li>
+                    <li><a href="contact.html" class="hover:text-white transition">Inquire</a></li>
+                    <li><a href="#" class="hover:text-white transition">Affiliates</a></li>
+                </ul>
+            </div>
+
+            <div class="space-y-6">
+                <h4 class="text-[10px] uppercase tracking-[0.4em] text-gray-400">Expertise</h4>
+                <ul class="space-y-4 text-xs uppercase tracking-widest text-gray-500">
+                    <li><a href="documentary.html" class="hover:text-white transition">Documentary</a></li>
+                    <li><a href="podcast.html" class="hover:text-white transition">Podcasts</a></li>
+                    <li><a href="after-effects.html" class="hover:text-white transition">VFX & AE</a></li>
+                    <li><a href="gaming.html" class="hover:text-white transition">Gaming</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="border-t border-white/5 pt-12 flex flex-col md:row justify-between items-center gap-6">
+            <p class="text-[9px] uppercase tracking-[0.5em] text-gray-600">
+                &copy; 2026 Elevate Media Web. All Rights Reserved.
+            </p>
+            <div class="flex gap-8 text-[9px] uppercase tracking-[0.3em] text-gray-600">
+                <a href="#" class="hover:text-white transition">Privacy Policy</a>
+                <a href="#" class="hover:text-white transition">Terms of Service</a>
+            </div>
+            <div class="text-[10px] italic font-serif text-gray-700">
+                Designed for the Elite.
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    window.addEventListener('load', () => {
+        const loader = document.getElementById('loader');
+        const loaderBar = document.getElementById('loader-bar');
+        
+        // Loader bar animation
+        loaderBar.style.transition = 'transform 1.5s ease-in-out';
+        loaderBar.style.transform = 'translateX(0)';
+
+        setTimeout(() => {
+            loader.style.opacity = '0';
+            setTimeout(() => {
+                loader.style.display = 'none';
+            }, 1000);
+        }, 2000);
+    });
+</script>
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      640: { slidesPerView: 2 },
+      1024: { slidesPerView: 3 },
+    },
+  });
+</script>
+
+<style>
+    /* Pagination dots ko white karne ke liye */
+    .swiper-pagination-bullet { background: #fff !important; opacity: 0.3; }
+    .swiper-pagination-bullet-active { opacity: 1; }
+</style>
+<script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+</body>
+  <script>
+  AOS.init({
+    duration: 1000,
+    once: true,
+  });
+</script>
+<script>
+    window.addEventListener('scroll', () => {
+        const nav = document.getElementById('main-nav');
+        if (window.scrollY > 50) {
+            nav.classList.add('bg-white/80', 'backdrop-blur-md', 'py-4', 'border-b', 'border-gray-100');
+            nav.classList.remove('py-6');
+        } else {
+            nav.classList.remove('bg-white/80', 'backdrop-blur-md', 'py-4', 'border-b', 'border-gray-100');
+            nav.classList.add('py-6');
+        }
+    });
+</script>
+</html>

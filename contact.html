@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inquire | Elevate Media Web</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-[#F9F7F2] text-[#1A1A1A] font-sans selection:bg-black selection:text-white">
+
+    <nav class="p-8 md:p-12 max-w-7xl mx-auto flex justify-between items-center">
+        <a href="index.html" class="text-[10px] uppercase tracking-[0.3em] border-b border-black pb-1 hover:opacity-50 transition font-sans">← Back to Home</a>
+        <h1 class="text-xl font-serif italic">Elevate Media.</h1>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-8 py-20 grid grid-cols-1 lg:grid-cols-2 gap-20">
+        
+        <div data-aos="fade-right">
+            <span class="text-[10px] uppercase tracking-[0.4em] text-gray-400 block mb-6">Contact</span>
+            <h2 class="text-5xl md:text-7xl font-serif italic mb-12">Let’s define your digital legacy.</h2>
+            
+            <div class="space-y-12">
+                <div>
+                    <h4 class="text-[10px] uppercase tracking-[0.3em] text-gray-400 mb-4 font-sans">Direct Inquiries</h4>
+                    <p class="text-xl font-serif">elevatemedia355@gmail.com</p>
+                    <p class="text-xl font-serif">+91 9937281365</p>
+                </div>
+                
+                <div>
+                    <h4 class="text-[10px] uppercase tracking-[0.3em] text-gray-400 mb-4 font-sans">Our Studio</h4>
+                    <p class="text-xl font-serif">Bhubaneswar, Odisha</p>
+                    <p class="text-sm text-gray-500 font-light mt-2">Available for worldwide collaborations.</p>
+                </div>
+
+                <div class="flex gap-8 pt-8 border-t border-gray-200">
+                    <a href="#" class="text-[10px] uppercase tracking-[0.3em] hover:text-gray-400 transition font-sans">Instagram</a>
+                    <a href="#" class="text-[10px] uppercase tracking-[0.3em] hover:text-gray-400 transition font-sans">LinkedIn</a>
+                    <a href="#" class="text-[10px] uppercase tracking-[0.3em] hover:text-gray-400 transition font-sans">Twitter</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white p-10 md:p-16 shadow-sm border border-gray-100" data-aos="fade-left">
+           <form action="https://formspree.io/f/mzdoyzqq" method="POST" class="space-y-8">
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="space-y-2">
+            <label class="text-[10px] uppercase tracking-widest text-gray-400 font-sans">Full Name</label>
+            <input type="text" name="name" required placeholder="John Doe" class="w-full bg-transparent border-b border-gray-200 py-3 focus:outline-none focus:border-black transition text-sm">
+        </div>
+        <div class="space-y-2">
+            <label class="text-[10px] uppercase tracking-widest text-gray-400 font-sans">Email Address</label>
+            <input type="email" name="email" required placeholder="john@brand.com" class="w-full bg-transparent border-b border-gray-200 py-3 focus:outline-none focus:border-black transition text-sm">
+        </div>
+    </div>
+
+    <div class="space-y-2">
+        <label class="text-[10px] uppercase tracking-widest text-gray-400 font-sans">Service Interest</label>
+        <select name="service" class="w-full bg-transparent border-b border-gray-200 py-3 focus:outline-none focus:border-black transition text-sm text-gray-500 appearance-none">
+            <option value="Short Form">Short Form Editing</option>
+            <option value="Documentary">Long Form Documentary</option>
+            <option value="Thumbnail">Thumbnail Design</option>
+            <option value="Full Agency">Full Agency Management</option>
+        </select>
+    </div>
+
+    <div class="space-y-2">
+        <label class="text-[10px] uppercase tracking-widest text-gray-400 font-sans">Your Message</label>
+        <textarea name="message" required rows="4" placeholder="Tell us about your project..." class="w-full bg-transparent border-b border-gray-200 py-3 focus:outline-none focus:border-black transition text-sm"></textarea>
+    </div>
+
+    <button type="submit" class="w-full bg-black text-white py-5 text-[10px] uppercase tracking-[0.3em] hover:bg-gray-800 transition duration-500">
+        Submit Inquiry
+    </button>
+</form> 
+        </div>
+    </main>
+
+    <footer class="p-12 text-center opacity-30 text-[10px] uppercase tracking-[0.5em]">
+        Elevate Media Web &copy; 2026
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000, once: true });
+    </script>
+</body>
+</html>
